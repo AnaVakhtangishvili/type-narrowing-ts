@@ -17,6 +17,6 @@ const circle: Circle = {
   radius: 10
 }
 
-console.log(getArea(rectangle));
-console.log(getArea(triangle));
-console.log(getArea(circle));
+console.log(`area of rectange is ${getArea(rectangle)}`);
+console.log(`area of triangle is ${getArea(triangle)}`);
+console.log(`area of circle is ${getArea(circle)}`);
